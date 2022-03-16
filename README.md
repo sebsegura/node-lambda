@@ -1,2 +1,5 @@
-# node-lambda
-Node Lambda PoC
+# Serverless BFF using Node.js - PoC
+
+## Functional architecture
+
+![arch](./arch.png)
