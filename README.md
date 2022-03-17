@@ -1,5 +1,10 @@
-# Serverless BFF using Node.js - PoC
+# Serverless BFF usando Node.js - PoC
 
-## Functional architecture
+## Arquitectura funcional
 
 ![arch](./arch.png)
+
+## Caracteristicas
+
+- Manejo de dependencias de Node via AWS Lambda Layers
+- Node 14.x runtime.
