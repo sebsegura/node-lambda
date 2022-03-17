@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "lib": ["es2017"],
+    "lib": ["es2018"],
     "moduleResolution": "node",
     "module": "commonJS",
     "outDir": "./dist",
     "strict": false,
-    "target": "es2017",
+    "target": "es2018",
     "typeRoots": ["src/@types", "node_modules/@types", "../node_modules/@types"]
   },
   "include": ["./src/**/*"],

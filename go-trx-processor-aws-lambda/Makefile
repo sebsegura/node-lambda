@@ -5,7 +5,7 @@ FUNCTION=go-trx-processor-aws-lambda
 
 build: fmt
 	@echo "Building $(FUNCTION)..."
-	@env GOOS=linux go build -ldflags="-s -w" -o bin/$(FUNCTION) cmd/main.go
+	@env GOARCH=amd64 GOOS=linux go build -ldflags="-s -w" -o bin/$(FUNCTION) cmd/main.go
 
 lint:
 	@go vet ./...
